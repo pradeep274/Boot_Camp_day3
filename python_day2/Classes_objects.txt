@@ -1,0 +1,22 @@
+
+
+class person:        # define person class
+	def getGender(self):
+      print 'person'
+
+
+class male(Person): # define male class
+	def getGender(self):
+      print 'male'
+
+class female(Person): # define female class
+	def getGender(self):
+      print 'female'
+
+
+a = person()		# instance of person
+a.getGender()
+c = male()		# instance of male     
+c.getGender()
+d= female()		# instance of female
+d.getGender()          
